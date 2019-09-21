@@ -1,0 +1,11 @@
+10
+a
+b
+cde
+xyz
+ac
+abcdef
+xyz
+yz
+z
+uvwxyz

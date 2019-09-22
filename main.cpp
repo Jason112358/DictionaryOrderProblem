@@ -5,7 +5,7 @@
 using namespace std;
 
 #define MAX_NUM 1000
-#define MAX_LEN 6
+#define MAX_LEN 10
 
 int getSinLoc(char);//获取字母对应数字
 int getDv(int*, int, int);//获取差值间的字母数
@@ -91,7 +91,7 @@ void guiwei(int* nums, int left, int right)
 	else if (left == 0 || nums[left - 1] == 0 || nums[left - 1] < nums[left] - 1) {
 		nums[left]--;
 		for (; right < MAX_LEN; right++) {
-			nums[right] = 21 + right;
+			nums[right] = 27 - MAX_LEN + right;
 		}
 	}
 	else if(nums[left-1]==nums[left]-1) {
